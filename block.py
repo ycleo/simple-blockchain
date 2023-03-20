@@ -27,5 +27,13 @@ class Block:
 #   'receiver': 'Bob'
 # }
 
-# b = Block(transaction1, 0)
+# transaction2 = {
+#   'amount': '20',
+#   'sender': 'Alex',
+#   'receiver': 'Bob'
+# }
+
+# transactions = [transaction1, transaction2]
+
+# b = Block(transactions, 0)
 # b.print_contents()
